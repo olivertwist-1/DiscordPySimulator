@@ -4,10 +4,17 @@ It's a discord.py simulator.
 ## :warning: Things to fix
 
 ### Context
-As you may know, discord py commands provide the context as the first parameter (when not using classes) however my code doesn't have ctx as paramater, so to print use print() function.
+As you may know, discord py commands provide the context as the first parameter
+(when not using classes) however my code doesn't have ctx as paramater, so to print use print() function.
+The idea here is to do
+
+```py
+await ctx.send()
+``` 
+Just to settle for the original syntax.
 
 ### Infinite parameters
-In discord.py when we want to receives several arguments and those are stored in one variable, we use unpack operator, look at the following example
+In discord.py when we want to receive several arguments and those are stored in one variable, we use unpack operator, look at the following example
 
 ```py
 @bot.command()
@@ -19,4 +26,7 @@ All arguments after * will be stored in `second`
 So my bot doesn't provide this yet
 
 ### on_message
+1. Needs to be below commands
+2. Needs to be used to start using commands through console
+
 
