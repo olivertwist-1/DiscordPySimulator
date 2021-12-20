@@ -29,4 +29,35 @@ So my bot doesn't provide this yet
 1. Needs to be below commands
 2. Needs to be used to start using commands through console
 
+## :wrench: Contribution
+Feel free to contribute at this crazy repository.
 
+## How to use ❓
+example
+
+```py
+import discord
+import asyncio
+from discord import *
+
+
+bot = commands.Bot(command_prefix="!", intents=discord.Intents.default())
+
+
+@bot.event
+async def on_ready():
+    print("hello")
+
+
+@bot.command()
+async def add(n1: int, n2: int):
+    print(n1 + n2)
+
+@bot.event
+async def on_message(message: str):
+    if message.startswith("hello"):
+        print("Hello!")
+
+
+bot.run('token') # it doesn't need to be a real token.
+```
