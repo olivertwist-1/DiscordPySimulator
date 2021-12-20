@@ -30,7 +30,7 @@ So my bot doesn't provide this yet
 2. Needs to be used to start using commands through console
 
 ## :wrench: Contribution
-Feel free to contribute at this crazy repository.
+Feel free to contribute at this crazy repository. Add things related to it or fix things mentioned above
 
 ## How to use ❓
 example
@@ -42,6 +42,8 @@ from discord import *
 
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.default())
+# You may set help_command=None, but this simulator already provides a command display. Up to you
+# prefix is mandatory to pass 
 
 
 @bot.event
