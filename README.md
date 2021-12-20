@@ -36,7 +36,6 @@ Feel free to contribute at this crazy repository. Add things related to it or fi
 example
 
 ```py
-import discord
 import asyncio
 from discord import *
 
