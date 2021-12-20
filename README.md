@@ -26,8 +26,8 @@ All arguments after * will be stored in `second`
 So my bot doesn't provide this yet
 
 ### on_message
-1. Needs to be below commands
-2. Needs to be used to start using commands through console
+* __Needs to be below commands__
+* __Needs to be used to start using commands through console__
 
 ## :wrench: Contribution
 Feel free to contribute at this crazy repository. Add things related to it or fix things mentioned above
