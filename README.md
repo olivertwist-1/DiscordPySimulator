@@ -12,7 +12,8 @@ In discord.py when we want to receives several arguments and those are stored in
 ```py
 @bot.command()
 async def example(ctx, first, *, second):
-   pass```
+   pass
+```
 
 All arguments after * will be stored in `second`
 So my bot doesn't provide this yet
