@@ -63,3 +63,9 @@ async def on_message(message: str):
 
 bot.run('token') # it doesn't need to be a real token.
 ```
+### Helpers
+```
+1. Tekgar#0000
+2. Nium#0000
+```
+Not allowed to expose their tag
