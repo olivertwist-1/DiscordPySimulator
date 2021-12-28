@@ -59,6 +59,8 @@ async def add(n1: int, n2: int):
 async def on_message(message: str):
     if message.startswith("hello"):
         print("Hello!")
+        
+    await bot.process_commands(message) # This needs to be used, mandatory
 
 
 bot.run('token') # it doesn't need to be a real token.
