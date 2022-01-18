@@ -23,7 +23,7 @@ This needs to be added in `process_commands` function from bot class.
 async def add(ctx, n1: int, n2: int = 2):
     await ctx.send(str(n1 + n2))
 ```
-When you call this function (command), you will only need to pass 1 argument, since n2 was assigned some value
+When you call this function (command), you will only need to pass 1 argument, since n2 was assigned some value. 
 My console bot can't do this yet
 
 ### on_message
